@@ -3,9 +3,6 @@ ONMT_UTILS
 
 Repository to evaluate the results from OpenNMT:
 
-place the one of the fork:
-https://github.com/rxn4chemistry/OpenNMT-py/tree/noise_reduction
-
 Documentation: http://opennmt.net/OpenNMT-py/
 
 System Requirements
@@ -121,11 +118,11 @@ jupyter notebook forward_models_comparison.ipynb
 
 Top1 accuracy results on test set:
 
-![Image of top1](notebooks/demo/figures/Top1_test.png)
+![Image of top1](noise_notebooks/demo/figures/Top1_test.png)
 
 Jensen Shannon divergence on test set:
 
-![Image of CJSD](notebooks/demo/figures/CJSD-1_test_range(1,%2011).png)
+![Image of CJSD](noise_notebooks/demo/figures/CJSD-1_test_range(1,%2011).png)
 
 Original notebooks
 ------------------
