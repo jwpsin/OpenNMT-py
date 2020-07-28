@@ -37,16 +37,7 @@ https://chemrxiv.org/articles/Unassisted_Noise-Reduction_of_Chemical_Reactions_D
 In the `noise_data` folder of the repository a sample dataset is provided.
 This dataset `schneider50k` comes from the following source:
 
-@article{schneider2016s,
-  title={What's what: The (nearly) definitive guide to reaction role assignment},
-  author={Schneider, Nadine and Stiefl, Nikolaus and Landrum, Gregory A},
-  journal={Journal of chemical information and modeling},
-  volume={56},
-  number={12},
-  pages={2336--2346},
-  year={2016},
-  publisher={ACS Publications}
-}
+* Schneider, Nadine and Stiefl, Nikolaus and Landrum, Gregory A. What's what: The (nearly) definitive guide to reaction role assignment. *Journal of chemical information and modeling* **2016**, 56, 2336-2346.
 
 Prior to preprocessing the data for model training, tokenized files need to be generated. To do so in `noise_scripts/` run:
 
