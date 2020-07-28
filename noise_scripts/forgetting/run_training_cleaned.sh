@@ -2,7 +2,7 @@
 
 subdir='20perc'
 NAME=schneider50k_cleaned
-DATADIR=../../data/${NAME}/${subdir}
+DATADIR=../../noise_data/${NAME}/${subdir}
 
 EXPERIMENT_NAME=${subdir}
 

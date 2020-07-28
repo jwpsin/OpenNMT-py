@@ -1,7 +1,7 @@
 #!/bin/bash
 
 NAME=schneider50k-cleaned/20perc
-DATADIR=../../data/${NAME}
+DATADIR=../../noise_data/${NAME}
 
 src=precursors
 tgt=product

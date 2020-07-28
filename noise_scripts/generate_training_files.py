@@ -66,7 +66,7 @@ def main():
 
 if __name__ == '__main__':
     # THIS PART is to be changed if the dataset changes
-    filename = "/../data/schneider50k/schneider_can_rxn_50k.csv"
-    dest_path = script_dir + "/../data/schneider50k/"
+    filename = "/../noise_data/schneider50k/schneider_can_rxn_50k.csv"
+    dest_path = script_dir + "/../noise_data/schneider50k/"
 
     main()

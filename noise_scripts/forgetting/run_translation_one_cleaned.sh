@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # FILEs paths
-PROJECTDIR="../../data/schneider50k_cleaned/20perc"
+PROJECTDIR="../../noise_data/schneider50k_cleaned/20perc"
 
-DATADIR="../../data/schneider50k"
+DATADIR="../../noise_data/schneider50k"
 model_folder="${PROJECTDIR}/training"
 test_file="${DATADIR}/precursors-test.txt"
 target_file="${DATADIR}/product-test.txt"

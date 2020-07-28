@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # FILEs paths
-PROJECTDIR="../../data/schneider50k"
+PROJECTDIR="../../noise_data/schneider50k"
 DATADIR=${PROJECTDIR}
 model_folder="${PROJECTDIR}/training"
 test_file="${DATADIR}/precursors-train.txt"
