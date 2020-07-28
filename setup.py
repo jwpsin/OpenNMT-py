@@ -29,6 +29,12 @@ setup(
         "tensorboard>=1.14",
         "flask",
         "pyonmttok==1.*;platform_system=='Linux'",
+        "numpy~=1.18.5",
+        "setuptools~=49.2.0",
+        "pandas~=1.0.5",
+        "scikit-learn~=0.23.1",
+        "scipy~=1.5.0",
+        "matplotlib~=3.2.2"
     ],
     entry_points={
         "console_scripts": [
