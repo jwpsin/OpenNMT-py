@@ -1,9 +1,9 @@
-ONMT_UTILS
+NOISE REDUCTION
 ==========
-
-Repository to evaluate the results from OpenNMT:
-
-Documentation: http://opennmt.net/OpenNMT-py/
+This repository is built to implement the forgetting experiment:
+https://chemrxiv.org/articles/Unassisted_Noise-Reduction_of_Chemical_Reactions_Data_Sets/12395120
+It was originally cloned from https://github.com/rxn4chemistry/OpenNMT-py (a fork of the Pytorch port of OpenNMT, documentation at http://opennmt.net/OpenNMT-py/ )
+Code and scripts were added to the original code to train and evaluate models, with a focus on how to reproduce the above cited forgetting experiment.
 
 System Requirements
 -------------------
@@ -31,8 +31,7 @@ conda install jupyter
 
 Demo: the forgetting experiment
 -------------------------------
-The following demo is built to demonstate the use of the `onmt_utils` package and the implementation of the forgetting experiment:
-https://chemrxiv.org/articles/Unassisted_Noise-Reduction_of_Chemical_Reactions_Data_Sets/12395120
+The following demo is built to demonstate to implement the forgetting experiment:
 
 In the `noise_data` folder of the repository a sample dataset is provided.
 This dataset `schneider50k` comes from the following source:
