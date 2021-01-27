@@ -2,7 +2,9 @@ NOISE REDUCTION
 ==========
 This repository is built to implement the forgetting experiment:
 https://chemrxiv.org/articles/Unassisted_Noise-Reduction_of_Chemical_Reactions_Data_Sets/12395120
+
 It was originally cloned from https://github.com/rxn4chemistry/OpenNMT-py (a fork of the Pytorch port of OpenNMT, documentation at http://opennmt.net/OpenNMT-py/ )
+
 Code and scripts were added to the original code to train and evaluate models, with a focus on how to reproduce the above cited forgetting experiment.
 
 System Requirements
