@@ -275,10 +275,7 @@ class Translator(object):
             report_align=report_align,
             report_score=report_score,
             logger=logger,
-            seed=opt.seed,
-            log_probs_out_file=log_probs_out_file,
-            target_score_out_file=target_score_out_file)
-            #! edited to add log_probs_out_file and target_score_out_file
+            seed=opt.seed)
 
     def _log(self, msg):
         if self.logger:
